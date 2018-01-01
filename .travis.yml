@@ -3,6 +3,10 @@ language: go
 os:
   - linux
 
+sudo: required
+dist: trusty
+group: deprecated-2017Q4
+
 go:
   - 1.9
 
